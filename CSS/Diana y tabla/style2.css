@@ -1,0 +1,60 @@
+body {
+  background: #b9d68a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.diana {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  position: relative;
+  border: 6px solid #999;
+  box-shadow:
+    0 0 0 6px #555,
+    inset 0 0 12px rgba(0,0,0,.25),
+    0 14px 24px rgba(0,0,0,.25);
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.c1 { width: 100%; height: 100%; background: #e11111; }
+.c2 { width: 85%;  height: 85%;  background: #ffffff; }
+.c3 { width: 70%;  height: 70%;  background: #e11111; }
+.c4 { width: 55%;  height: 55%;  background: #ffffff; }
+.c5 { width: 40%;  height: 40%;  background: #e11111; }
+.c6 { width: 25%;  height: 25%;  background: #ffffff; }
+.c7 { width: 10%;  height: 10%;  background: #e11111; }
+
+.diana::before,
+.diana::after {
+  content: "";
+  position: absolute;
+  background: #111;
+  z-index: 50;
+}
+
+.diana::before {
+  width: 2px;
+  height: 100%;
+  left: 50%;
+  top: 0%;
+  transform: translateX(-50%);
+}
+
+.diana::after {
+  height: 2px;
+  width: 100%;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,40 @@
+body {
+  background: #c7e0a0; /* verde del fondo */
+  font-family: Arial, sans-serif;
+}
+
+table {
+  margin: 40px auto;
+  border-collapse: collapse; /* une los bordes */
+  background: #fdddb3;       /* color crema */
+  border-top-left-radius: 20px;
+  border-top-right-radius:20px ;
+  overflow: hidden;          /* redondea bien las esquinas */
+  width: 600px;
+  text-align: center;
+}
+
+caption {
+  caption-side: top;       /* título arriba */
+  font-size: 1.5em;
+  font-weight: bold;
+  background: deepskyblue; /* fondo azul */
+  padding: 10px;
+}
+
+thead th {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+tbody td {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+tfoot td {
+  background: deepskyblue; /* pie azul */
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 10px;
+}

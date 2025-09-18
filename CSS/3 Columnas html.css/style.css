@@ -1,0 +1,67 @@
+p { 
+    border: solid rgb(2, 2, 0) 2px; 
+    padding: 10px 20px; background-color: rgb(75, 72, 72); 
+    color: white; 
+    font-size: 20px; 
+    margin: 20px 80px;
+}
+.t1 {
+    text-align: left;
+}
+
+.t2 {
+    text-align: center;
+}
+.t3 {
+    text-align: right;
+}
+h1 {
+  display: block; 
+  width: fit-content;   /* ajusta el ancho al contenido */
+  margin: 20px auto;    /* centra horizontalmente */
+  border: solid yellow 2px;
+  padding: 10px 20px;
+  color: rgb(154, 11, 175);
+}
+.center {
+  text-align: center;
+}
+.cajas {
+  display: flex;               /* coloca las cajas en fila */
+  justify-content: center;     /* centra horizontalmente */
+  align-items: center;         /* centra verticalmente dentro de la fila */
+  gap: 20px;                   /* espacio entre cajas */
+  margin-top: 40px;            /* separación con lo de arriba */
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    color: black;
+    box-shadow: 5px 5px 15px rgba(203, 238, 5, 0.6);
+    display: flex;              /* centra el texto dentro de cada caja */
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box-1 {
+  background: violet;
+}
+.box-2 {
+  background: yellowgreen;
+}
+
+
+
+body {
+    background-color: rgb(3, 3, 3);
+    color: black;
+}
