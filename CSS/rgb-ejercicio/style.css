@@ -154,15 +154,15 @@ h1{
 .primer  { 
     background: red;
     top: 20px; 
-    left: 20px; 
+    left: 45px; 
 }
 .segundo { 
     background: lime;
-    top: 20px; 
+    top: 25px; 
     left: 120px; 
 }
 .tercero { 
     background: blue;
     top: 80px; 
-    left: 70px; 
+    left: 80px; 
 }
