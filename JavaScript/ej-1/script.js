@@ -98,14 +98,68 @@ dentro de la función imprime el valor el valor que hemos pasado por los paráme
 //     return nombre + " " + apellido1 + " " + apellido2;
 // }
 // console.log(nombreCompleto("Erick", "Gay", "Masgey"));
-function numeros(num1, num2) {
-    if(num1 > num2){
-        console.log("Es el número mayor")
-    } else{
-        console.log("Es el número pequeño")
-    }
-}
-numeros(7,5);
+// function numeros(num1, num2) {
+//     if(num1 > num2){
+//         console.log("Es el número mayor")
+//     } else{
+//         console.log("Es el número pequeño")
+//     }
+// }
+// numeros(7,5);
+// EJERCICIOS SWITCH
+
+// 1. Realiza un switch case que muestre el mes del año cuando lo introduzcamos en
+// formato numérico (1 al 12)
+// let mes = 2;
+// switch (mes) {
+//     case 1: console.log("Enero"); break;
+//     case 2: console.log("Febrero"); break;
+//     case 3: console.log("Marzo"); break;
+//     case 4: console.log("Abril"); break;
+//     case 5: console.log("Mayo"); break;
+//     case 6: console.log("Junio"); break;
+//     case 7: console.log("Julio"); break;
+//     case 8: console.log("Agosto"); break;
+//     case 9: console.log("Septiembre"); break;
+//     case 10: console.log("Octubre"); break;
+//     case 11: console.log("Noviembre"); break;
+//     case 12: console.log("Diciembre"); break;
+
+//     default:
+//         console.log("Se ha acabado el año.")
+// }
+
+// 2. Realiza un switch case en el que puedas introducir un número del uno al cinco en
+// un string y lo transforme a un número
+
+// let numero = "uno";
+// switch (numero) {
+//     case "uno": console.log(1); break;
+//     case "dos": console.log(2); break;
+//     case "tres": console.log(3); break;
+//     case "cuatro": console.log(4); break;
+//     case "cinco": console.log(5); break;
+//     }
+// EJERCICIOS MATH
+
+// 1. Investiga como crear un número aleatorio (0 o 1) con el método random de
+// Math.
+
+
+// let numero = Math.floor(Math.random() * 2);
+// console.log(numero);
+
+
+// 2. Investiga como redondear el valor de Math.PI 3,1415… a la parte decimal 3.
+// let numero = Math.floor((Math.PI))
+// console.log(numero);
+
+
+
+
+
+
+
 
 
 
