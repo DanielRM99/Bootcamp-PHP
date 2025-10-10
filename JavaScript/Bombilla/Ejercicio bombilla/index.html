@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bombilla ON/OFF</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        id="boton"
+        src="boff.jpg"
+        alt="Botón apagado"
+        onclick="toggleBombilla()"
+      />
+      <img id="bombilla" src="off.jpg" alt="Bombilla apagada" />
+      <div id="controlBrillo">
+        <input id="brillo" type="range" min="10" max="200" value="100" />
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
