@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+}
+
+.eat {
+    color: green;
+    background-color: rgb(9, 219, 135);
+    display: flex;
+    flex-direction: column;
+}
+.mainEatButton {
+    width: ;
+}
+
+.iceCreamBut {
+    width: fit-content;
+    height: autos;
+}
+.iconoBoton {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 35px;
+}
+
+
+.play {
+    color: rgb(237, 237, 7);
+    background-color: rgb(185, 212, 7);
+}
+
+.fight {
+    background-color: rgb(227, 8, 88);
+}
+
+.sleep {
+    background-color: rgb(5, 167, 237);
+}
+
