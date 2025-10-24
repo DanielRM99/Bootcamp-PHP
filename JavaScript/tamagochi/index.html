@@ -10,22 +10,60 @@
     <div class="container">
       <div class="eat">
         <div class="mainEatButton">
-          <div class="eatButton">
-            <button class="iceCreamBut">
-              <img class="iconoBoton" src="img/ice-cream-svgrepo-com.svg" />
-            </button>
-          </div>
+          <button id="iceCreamBut" class="botones">
+            <img class="iconoBoton" src="img/ice-cream-svgrepo-com.svg" />
+          </button>
 
-          <button class="carrotButton">
+          <button id="carrotButton" class="botones">
             <img class="iconoBoton" src="img/carrot-svgrepo-com.svg" />
           </button>
-          <button></button>
+
+          <button id="chickenBut" class="botones">
+            <img class="iconoBoton" src="img/chicken.svg" />
+          </button>
         </div>
-        <div class="eatBarra"></div>
+
+        <div class="barra" id="barraProg">
+          <label for="eatBarraEntera"></label>
+          <progress max="100" min="0" value="50"></progress>
+          <span class="eatLabel">50% Full</span>
+        </div>
         <div class="eatLetra"><h2>EAT</h2></div>
       </div>
-      <div class="play"><h2>PLAY</h2></div>
-      <div class="fight"><h2>FIGHT</h2></div>
+
+      <div class="play">
+        <div class="mainPlayButton">
+          <button id="controller" class="botones">
+            <img class="iconoBoton" src="img/controller.svg" />
+          </button>
+          <button id="rugby" class="botones">
+            <img class="iconoBoton" src="img/rugby.svg" />
+          </button>
+          <button id="chess" class="botones">
+            <img class="iconoBoton" src="img/chess.svg" />
+          </button>
+        </div>
+        <div class="barra" id="barraPlay">
+          <label for="eatBarraEntera"></label>
+          <progress max="100" min="0" value="50"></progress>
+          <span class="playLabel">50% Full</span>
+        </div>
+
+        <div class="playLetra"><h2>PLAY</h2></div>
+      </div>
+
+      <div class="fight">
+        <div class="fightLabel"><h2>FIGHT</h2></div>
+        <div class="mainFightButton">
+          <button class="botones" id="punch">
+             <img class="iconoBoton" src="img/punch.svg" />
+          </button>
+          <button class="botones" id="run">
+             <img class="iconoBoton" src="img/run.svg" />
+          </button>
+        </div>
+        
+      </div>
       <div class="sleep"><h2>SLEEP</h2></div>
     </div>
   </body>
